@@ -1,0 +1,23 @@
+<html>
+<body>
+<table th:each=course:${courses}>
+<tr>
+<td>Id</td>
+<td th:text=${course.id}></td>
+</tr>
+<tr>
+<td>CourseName</td>
+<td th:text=${course.coursename}></td>
+</tr>
+<tr>
+<td>Duration</td>
+<td th:text=${course.duration}></td>
+</tr>
+<tr>
+<td>fee</td>
+<td th:text=${course.fee}></td>
+</tr>
+</table>
+<br><br>
+</body>
+</html>
